@@ -1,7 +1,10 @@
 <app-logo></app-logo>
-<app-favorite></app-favorite>
 <div class="flex-container">
+<div class="sidebar-adjust">
   <app-donate></app-donate>
+  <app-favorite></app-favorite>
+</div>
+
   <div class="main-articles">
     <div *ngFor="let currentArticle of articles">
       <h1><a href="">{{currentArticle.title}}</a></h1>

@@ -1,6 +1,13 @@
 
 body {
+  margin: 0;
   background-image: url('https://maydesigns.cdn.prismic.io/maydesigns/e618d7ea9a430b4eacb60fbe94a78b867c145cef_page1.png');
   background-repeat: repeat;
   background-size: 400px auto;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }

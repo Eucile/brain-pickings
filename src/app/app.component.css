@@ -1,13 +1,31 @@
-.title-highlight {
-  background-color: #ffdb00;
+a {
+  line-height: 1.6em;
   color: black;
+  background: #ffdb00;
+  text-decoration: none;
+  box-shadow: -10px 0px 0px #ffdb00, 10px 0px 0px #ffdb00;
 }
+
+a:hover {
+  background: #262626;
+  color: #ffdb00;
+  box-shadow: -10px 0px 0px #262626, 10px 0px 0px #262626;
+}
+
+a:after {
+    position: relative;
+    left: 10px;
+    line-height: 1.6em;
+    background: #ffdb00
+  }
 
 .flex-container {
   background: white;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   width: 80%;
   margin: 0 auto;
+  padding: 1.5em;
+  font-size: 1.1em;
 }

@@ -3,7 +3,7 @@
   <app-donate></app-donate>
   <div class="main-articles">
     <div *ngFor="let currentArticle of articles">
-      <h1><span class="title-highlight">{{currentArticle.title}}</span></h1>
+      <h1><a href="">{{currentArticle.title}}</a></h1>
       <p>{{currentArticle.author}}</p>
       <p>{{currentArticle.content}}</p>
     </div>

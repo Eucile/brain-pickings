@@ -1,4 +1,47 @@
 .sidebar {
+  margin-right: 3.5em;
+  border: .5px solid lightgray;
+  width: 230px;
+  font-size: .8em;
+}
+.loving {
+  background: #191919;
   padding: 1em;
-  margin-right: 2em;
+}
+
+.options {
+  padding: 1em;
+}
+
+.button-donate-link {
+  color: #262626;
+  background-color: #ffdb00;
+  border-radius: 25px;
+  padding: 10px 13px 8px;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+}
+
+.one-time-donation {
+color: #262626;
+background-color: #ffdb00;
+border-radius: 25px;
+padding: 10px 13px 8px;
+text-decoration: none;
+display: inline-block;
+border: none;
+}
+
+.monthly-donation {
+  font-weight: bold;
+  text-align: center;
+  width: 80%;
+  border-bottom: solid 1px lightgray;
+  margin: 0 auto;
+}
+
+.donation-amounts {
+  margin: 2em 2em;
+  line-height: .7em;
 }

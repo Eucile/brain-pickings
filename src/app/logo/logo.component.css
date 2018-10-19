@@ -1,8 +1,13 @@
 .logo-box {
+  display: flex;
   max-width: 80%;
   margin: 0 auto;
+  background: white;
+  padding: 1em 1.5em;
+  flex-flow: column nowrap;
 }
 
 .logo {
-  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
 }

@@ -2,6 +2,7 @@
   margin-right: 3.5em;
   border: .5px solid lightgray;
   width: 230px;
+  border-width: thin;
   font-size: .8em;
 }
 .loving {
@@ -13,6 +14,7 @@
   padding: 1em;
 }
 
+
 .button-donate-link {
   color: #262626;
   background-color: #ffdb00;
@@ -21,6 +23,7 @@
   text-decoration: none;
   display: inline-block;
   border: none;
+  font-weight: bold;
 }
 
 .one-time-donation {
@@ -42,6 +45,6 @@ border: none;
 }
 
 .donation-amounts {
-  margin: 2em 2em;
+  margin: 1em 2em;
   line-height: .7em;
 }

@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { Article } from './models/article.model';
 import { Favorite } from './models/favorite.model';
 import {FavoriteComponent} from './favorite/favorite.component';
+import { Labors } from './models/labors.model';
+import { LaborsOComponent } './labors/labors.component';
 
 @Component({
   selector: 'app-root',

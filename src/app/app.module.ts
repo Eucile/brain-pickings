@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { DonateComponent } from './donate/donate.component';
 import { LogoComponent } from './logo/logo.component';
+import { FavoriteComponent } from './favorite/favorite.component';
 
 
 @NgModule({
@@ -10,7 +11,7 @@ import { LogoComponent } from './logo/logo.component';
     AppComponent,
     DonateComponent,
     LogoComponent,
-
+    FavoriteComponent,
   ],
   imports: [
     BrowserModule

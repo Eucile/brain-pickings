@@ -1,10 +1,11 @@
 <app-logo></app-logo>
+<app-favorite></app-favorite>
 <div class="flex-container">
   <app-donate></app-donate>
   <div class="main-articles">
     <div *ngFor="let currentArticle of articles">
       <h1><a href="">{{currentArticle.title}}</a></h1>
-      <h3>{{currentArticle.quote}}</h3>
+      <h2>{{currentArticle.quote}}</h2>
       <p>{{currentArticle.author}}</p>
       <p>{{currentArticle.content}}</p>
     </div>

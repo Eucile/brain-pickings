@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { Article } from './models/article.model';
+import { Favorite } from './models/favorite.model';
+import {FavoriteComponent} from './favorite/favorite.component';
 
 @Component({
   selector: 'app-root',

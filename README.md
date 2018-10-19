@@ -28,10 +28,9 @@ It will be launched on firebase as a landing-page clone of the online newsletter
 
 9. "Labours of Love" is the ninth component that will feature hand-drawn charts and references to a selection of more articles chosen by the owner.
 
-10. Another component is the logo banner at the top. This contains animation and styling that I will explore in the future. 
+10. Another component is the logo banner at the top. This contains animation and styling that I will explore in the future.
 
 11. The last component will comprise the footer section. It will be hard-coded and arranged as needed.  
-
 
 
 ### Technologies and Resources

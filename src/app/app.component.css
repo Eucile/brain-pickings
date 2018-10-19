@@ -1,0 +1,16 @@
+.title-highlight {
+  background-color: #ffdb00;
+  color: black;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.sidebar {
+ margin: 2em;
+}

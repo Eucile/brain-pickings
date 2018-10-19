@@ -1,4 +1,6 @@
+<h1 class="underline">Favorite Reads</h1>
 <div *ngFor="let currentFavorite of favorites">
-  <img src= + {{currentFavorite.image}} + >
-  <p>{{currentFavorite.teaser}}</p>
+  <img class="favorite-image" src={{currentFavorite.image}}>
+  <p><span class="teaser">{{currentFavorite.teaser}}</span></p>
 </div>
+<a class="see-more" href="https://www.brainpickings.org/favorite-reads/">see more</a>

@@ -1,0 +1,45 @@
+.favorites-section {
+  margin-top: 2em;
+}
+.favorite-image {
+  width: 180px;
+}
+.teaser {
+  width: 172px;
+}
+
+.see-more {
+  color: #c33737;
+  border-bottom: 1px solid #e19b9b;
+}
+p {
+  width: 172px;
+}
+span {
+  line-height: 1.8em;
+  color: black;
+  background: #e6e6e6;
+  text-decoration: none;
+  box-shadow: -10px 0px 0px #e6e6e6, 10px 0px 0px #e6e6e6;
+}
+
+span:hover {
+  background: #262626;
+  color: white;
+  box-shadow: -10px 0px 0px #262626, 10px 0px 0px #262626;
+}
+
+span:after {
+    position: relative;
+    left: 10px;
+    line-height: 1.8em;
+    background: #ffdb00
+  }
+
+.underline {
+  width: 172px;
+  text-transform: lowercase;
+  font-size: 1.8em;
+  margin: 2em 0 .4em 0;
+  border-bottom: 1px solid #8c8c8c;
+}

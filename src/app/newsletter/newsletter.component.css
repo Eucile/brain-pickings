@@ -1,0 +1,23 @@
+.underline {
+  width: 172px;
+  text-transform: lowercase;
+  font-size: 1.8em;
+  margin: 2em 0 .4em 0;
+  border-bottom: 1px solid #8c8c8c;
+}
+
+p {
+  width: 172px;
+}
+
+.submit-button {
+  margin-top: 1em;
+  background-color: #ffdb00;
+  border-radius: 25px;
+  padding: 10px 13px 8px;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  text-align: center;
+  font-weight: bold;
+}

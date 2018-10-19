@@ -22,6 +22,14 @@ a:after {
   h2 {
     padding: 0 2em;
   }
+  .author-tag {
+    color: #b3b3b3;
+  }
+
+  .opening-quote {
+    border-bottom: 1px solid #d9d9d9;
+    padding: 1em 1.7em;
+  }
 
 .flex-container {
   background: white;
@@ -30,6 +38,10 @@ a:after {
   justify-content: space-around;
   width: 80%;
   margin: 0 auto;
-  padding: 1.5em;
+  padding: 1em;
   font-size: 1.1em;
+}
+
+#brainpickings_donation_horizontal_widget-3 {
+  background: gray;
 }

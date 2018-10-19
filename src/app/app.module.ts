@@ -4,6 +4,7 @@ import { AppComponent } from './app.component';
 import { DonateComponent } from './donate/donate.component';
 import { LogoComponent } from './logo/logo.component';
 import { FavoriteComponent } from './favorite/favorite.component';
+import { NewsletterComponent } from './newsletter/newsletter.component';
 
 
 @NgModule({
@@ -12,6 +13,7 @@ import { FavoriteComponent } from './favorite/favorite.component';
     DonateComponent,
     LogoComponent,
     FavoriteComponent,
+    NewsletterComponent,
   ],
   imports: [
     BrowserModule

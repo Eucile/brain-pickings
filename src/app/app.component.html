@@ -3,13 +3,14 @@
 <div class="sidebar-adjust">
   <app-donate></app-donate>
   <app-favorite></app-favorite>
+  <app-newsletter></app-newsletter>
 </div>
 
   <div class="main-articles">
     <div *ngFor="let currentArticle of articles">
       <h1><a href="">{{currentArticle.title}}</a></h1>
-      <h2>{{currentArticle.quote}}</h2>
-      <p>{{currentArticle.author}}</p>
+      <h2 class="opening-quote">{{currentArticle.quote}}</h2>
+      <p class="author-tag">{{currentArticle.author}}</p>
       <p>{{currentArticle.content}}</p>
     </div>
   </div>

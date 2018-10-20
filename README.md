@@ -1,12 +1,12 @@
 # Brain Pickings
 
-#### a site clone by Krystal Foster
+#### an Angular site clone by Krystal Foster
 #### Oct. 19, 2018
 
 ### Description
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
-It will be launched on firebase as a landing-page clone of the online newsletter, [Brain Pickings](https://www.brainpickings.org/) using TypeScript, angular components and any new tools I uncover in the weeks ahead.   
+It will be launched on firebase as a mock-up of the online newsletter, [Brain Pickings](https://www.brainpickings.org/)(original site) using TypeScript, angular components and any new tools I uncover in the weeks ahead.   
 
 ## Blue Print
 

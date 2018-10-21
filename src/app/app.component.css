@@ -21,10 +21,15 @@ a:after {
 
   h2 {
     padding: 0 2em;
+    font-family: "fira-sans", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.25em;
+    line-height: 1.4em;
   }
 
   h1 {
     margin: 0;
+    font-family: 'Fira Sans', sans-serif;
   }
 
   .author-tag {
@@ -34,6 +39,8 @@ a:after {
   .opening-quote {
     border-bottom: 1px solid #d9d9d9;
     padding: 0 1.5em 1em;
+    font-size: 1.25em;
+    line-height: 1.4em;
   }
 
 .flex-container {

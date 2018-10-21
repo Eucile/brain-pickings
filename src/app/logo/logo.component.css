@@ -3,18 +3,11 @@
   max-width: 75%;
   margin: 0 auto;
   background: white;
-  padding: 1em 1.5em;
+  padding: 1em;
   flex-flow: column nowrap;
 }
 
 .logo {
   max-width: 100%;
   margin: 0 auto;
-  z-index: 1;
-}
-
-#banner {
-  position: fixed;
-  margin: 0 auto;
-  max-width: 80%;
 }

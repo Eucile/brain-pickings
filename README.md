@@ -24,7 +24,7 @@ It will be launched on firebase as a mock-up of the online newsletter, [Brain Pi
 
 7. The fifth component is an archive section that will include a search feature and pipe. I don't have access to the database and am not sure currently how to implement this part but it will be styled and composed as its own component until it works.
 
-8. [Mostly Done] The sixth sidebar component is a "Favorite Reads" section. This is also a data-informed list that previews the most popular articles up-to-date.
+8. [Mostly Done] The sixth sidebar component is a "Favorite Reads" section. This is also a data-informed list that previews the most popular articles up-to-date. Images and titles will have routing.
 
 9. [Mostly Done] "Labors of Love" is the ninth component that will feature hand-drawn charts and references to a selection of more articles chosen by the owner.
 

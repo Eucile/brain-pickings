@@ -1,5 +1,5 @@
 <h1 class="underline">Favorite Reads</h1>
-<div *ngFor="let currentFavorite of favorites">
+<div *ngFor="let currentFavorite of favorites | async">
   <img class="favorite-image" src={{currentFavorite.image}}>
   <p><span class="teaser">{{currentFavorite.teaser}}</span></p>
 </div>

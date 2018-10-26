@@ -32,7 +32,10 @@ It will be launched on firebase as a mock-up of the online newsletter, [Brain Pi
 
 ### Screen Shots
 
+#### 1
 ![Screenshot](SS1.png)
+
+#### 2
 ![Screenshot](SS2.png)
 
 ### Technologies and Resources

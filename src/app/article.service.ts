@@ -10,7 +10,7 @@ export class ArticleService {
 
   constructor(private database: AngularFireDatabase) {
     this.articles = database.list('articles');
-    this.favorites = database.list('articles');
+    this.favorites = database.list('favorites');
   }
   getArticles() {
     return this.articles;

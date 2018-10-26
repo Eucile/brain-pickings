@@ -16,20 +16,28 @@
       "author": "BY MARIA POPOVA",
       "content": "The second annual Universe in Verse — a celebration of science through poetry, and a voice of resistance against the assault on nature — opened with the poem “A Brave and Startling Truth” by Maya Angelou (April 4, 1928–May 28, 2014), which flew to space on the Orion spacecraft. I chose this poem to set the tone for the show in part because it is absolutely stunning and acutely relevant to our cultural moment, and in part because the first time I read it, it sparked in me a sudden insight into the often invisible ways in which science and poetry influence and inspire one another — into how the golden threads of thought and feeling stretch and cross-hatch across disciplines to weave what we call culture.",
       "id": "3"
-  }, {
-  "teaser": "The Best of Brain Pickings 2018",
-  "image" : "https://i1.wp.com/www.brainpickings.org/wp-content/uploads/2017/10/bigwolflittlewolf00.jpg?zoom=2&fit=320%2C168&ssl=1",
-  "id": "4"
-  },
-  {
-  "teaser": "BY MARIA POPOVA",
-  "image" : "url",
-  "id": "5"
-  },
-  {
-  "teaser": "BY MARIA POPOVA",
-  "image" : "url",
-  "id": "6"
   }
-]
+],
+  "favorites": [
+    {
+    "teaser": "The Best of Brain Pickings 2018",
+    "image" : "https://i1.wp.com/www.brainpickings.org/wp-content/uploads/2017/10/bigwolflittlewolf00.jpg?zoom=2&fit=320%2C168&ssl=1",
+    "id": "4"
+    },
+    {
+    "teaser": "A Brave and Startling Truth: Astrophysicist Janna Levin Reads Maya Angelou’s Stunning Humanist Poem That Flew to Space, Inspired by Carl Sagan",
+    "image" : "https://i1.wp.com/www.brainpickings.org/wp-content/uploads/2018/05/mayaangelou_jannalevin1.jpg?zoom=2&fit=320%2C168&ssl=1",
+    "id": "5"
+    },
+    {
+    "teaser": "A Stoic’s Key to Peace of Mind: Seneca on the Antidote to Anxiety",
+    "image" : "https://i1.wp.com/www.brainpickings.org/wp-content/uploads/2016/06/thinslicesofanxiety0.jpg?zoom=2&fit=320%2C168&ssl=1",
+    "id": "6"
+    },
+    {
+    "teaser": "Fixed vs. Growth: The Two Basic Mindsets That Shape Our Lives",
+    "image" : "https://i2.wp.com/www.brainpickings.org/wp-content/uploads/2014/01/mindset.jpg?zoom=2&fit=300%2C157&ssl=1",
+    "id": "7"
+    }
+  ]
 }

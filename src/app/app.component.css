@@ -44,7 +44,6 @@ a:after {
   }
 
 .flex-container {
-  margin-top: 0;
   background: white;
   display: flex;
   flex-direction: row;
@@ -54,7 +53,6 @@ a:after {
   padding: 1em;
   font-size: 1.1em;
 }
-
 
 @media screen and (max-width: 920px) {
   .flex-container {

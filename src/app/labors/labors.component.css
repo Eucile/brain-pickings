@@ -1,3 +1,8 @@
+.labors-div {
+  margin-top: 0;
+  border-right: .5px solid lightgray;
+  width: 230px;
+}
 
 .labors-image {
   width: 180px;

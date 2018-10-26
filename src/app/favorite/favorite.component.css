@@ -1,4 +1,8 @@
-
+.favorite-div {
+  margin-top: 0;
+  border-right: .5px solid lightgray;
+  width: 230px;
+}
 .favorite-image {
   width: 180px;
 }

@@ -21,3 +21,9 @@ p {
   text-align: center;
   font-weight: bold;
 }
+
+#newsletter {
+  margin-top: 0;
+  border-right: .5px solid lightgray;
+  width: 230px;
+}

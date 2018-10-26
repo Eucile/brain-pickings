@@ -8,7 +8,7 @@
 </div>
 
   <div class="main-articles">
-    <div *ngFor="let currentArticle of articles">
+    <div *ngFor="let currentArticle of articles | async">
       <h1><a href="">{{currentArticle.title}}</a></h1>
       <h2 class="opening-quote">{{currentArticle.quote}}</h2>
       <p class="author-tag">{{currentArticle.author}}</p>

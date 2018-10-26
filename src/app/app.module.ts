@@ -10,6 +10,16 @@ import { AboutComponent } from './about/about.component';
 import { AlsoComponent } from './also/also.component';
 import { ArchiveComponent } from './archive/archive.component';
 import { FooterComponent } from './footer/footer.component';
+import { masterFirebaseConfig } from './api-keys';
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
+
+export const firebaseConfig = {
+  apiKey: masterFirebaseConfig.apiKey,
+  authDomain: masterFirebaseConfig.authDomain,
+  databaseURL: masterFirebaseConfig.databaseURL,
+  storageBucket: masterFirebaseConfig.storageBucket
+};
 
 
 @NgModule({
@@ -26,7 +36,9 @@ import { FooterComponent } from './footer/footer.component';
     FooterComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AngularFireModule.initializeApp(firebaseConfig),
+    AngularFireDatabaseModule
   ],
   providers: [],
   bootstrap: [AppComponent]

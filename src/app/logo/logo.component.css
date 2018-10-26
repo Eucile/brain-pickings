@@ -1,6 +1,6 @@
 .logo-box {
   display: flex;
-  max-width: 900px;
+  max-width: 970px;
   margin: 0 auto;
   background: white;
   padding: 1em;
@@ -12,8 +12,8 @@
   margin: 0 auto;
 }
 
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 970px) {
   .logo {
-    max-width: 900px;
+    max-width: 970px;
   }
 }

@@ -30,6 +30,10 @@ It will be launched on firebase as a mock-up of the online newsletter, [Brain Pi
 
 10. [DONE] The last component is the footer section, which is static.
 
+### Screen Shots
+
+![Screenshot](ss1.png)
+![Screenshot](ss1.png)
 
 ### Technologies and Resources
 

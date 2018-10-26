@@ -73,6 +73,38 @@ h1 a:after {
   font-size: 1.2em;
 }
 
+#bottom-donation {
+  background: #e6e6e6;
+  padding: 1.25em 5.882352941176% 20px;
+  margin: 2.7em 0 0;
+}
+.underline {
+  border-bottom: 1px solid #8c8c8c;
+  padding: 0 0 .2em 0;
+}
+.donation-flex {
+  display: flex;
+  flex-direction: column wrap;
+  justify-content: space-between;
+}
+#bottom-onetime-donation {
+  width: 50%;
+}
+.donation-amounts {
+  margin: 1em 2em;
+  line-height: .7em;
+}
+.button-donate-link {
+  color: #262626;
+  background-color: #ffdb00;
+  border-radius: 25px;
+  padding: 10px 13px 8px;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  font-weight: bold;
+}
+
 @media screen and (max-width: 920px) {
   .flex-container {
     margin-top: 0;

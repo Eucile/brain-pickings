@@ -1,7 +1,7 @@
 # Brain Pickings
 
 #### an Angular site clone by Krystal Foster
-#### Oct. 19, 2018
+#### Oct. 26, 2018
 
 ### Description
 
@@ -33,7 +33,7 @@ It will be launched on firebase as a mock-up of the online newsletter, [Brain Pi
 ### Screen Shots
 
 ![Screenshot](SS1.png)
-![Screenshot](SS1.png)
+![Screenshot](SS2.png)
 
 ### Technologies and Resources
 

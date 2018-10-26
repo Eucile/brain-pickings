@@ -8,29 +8,27 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 It will be launched on firebase as a mock-up of the online newsletter, [Brain Pickings](https://www.brainpickings.org/)(original site) using TypeScript, angular components and any new tools I uncover in the weeks ahead.   
 
-## Blue Print
+## Current Structure
 
-1. The program will feature a main article section that will be informed by a TypeScript model/database to come.
+1. [TO REVISIT] The program features a main article section that I would like to be informed by a database, but currently I am not sure how to pass content that includes multiple html elements and unique composition into a firebase argument. I initially had it feeding from the database but for now, it is hard-coded as a placeholder. I will revisit this feature once I know how to do pass all media properly.
 
-2. [Done] The program will feature a sidebar that will contain multiple components, many feeding off of the central database.
+2. [DONE] The program features a sidebar that contains multiple components, three of them successfully feed off the central firebase database.
 
-3. [Done] The first component in the sidebar will be a donation section. It does not change or require a constructor, so it will likely be hard-coded and styled within its own component for now.
+3. [DONE] The first component in the sidebar is a donation section. It does not change or require a constructor, so it is hard-coded and styled within its own component.
 
-4. [Mostly Done] The second component contains two newsletter forms. Again, these do not update with new information so they will be hard-coded and composed in their own space.
+4. [DONE] The second component contains the newsletter form. Again, these do not update with new information so they will be hard-coded and composed in their own space.
 
-5. The third component in the sidebar is an About and Contact section. These will only provide external hyperlinks so will be managed with hard code.
+5. [TO ADD] The third component in the sidebar is an About and Contact section. These will only provide external hyperlinks so will be managed with hard code.
 
-6. The fourth sidebar component is an "Also" section that directs users to other additional media on the website, I may implement some routing in this section.
+6. [TO ADD] The fourth sidebar component is an "Also" section that directs users to other additional media on the website, I may implement some routing in this section just to practice routing.
 
-7. The fifth component is an archive section that will include a search feature and pipe. I don't have access to the database and am not sure currently how to implement this part but it will be styled and composed as its own component until it works.
+7. [DONE] The sixth sidebar component is a "Favorite Reads" section. This is also a data-informed list that previews the most popular articles up-to-date. It is successfully retrieving its contents via a firebase list.
 
-8. [Mostly Done] The sixth sidebar component is a "Favorite Reads" section. This is also a data-informed list that previews the most popular articles up-to-date. Images and titles will have routing.
+8. [DONE] "Labors of Love" is the ninth component that also draws from another list in the database.
 
-9. [Mostly Done] "Labors of Love" is the ninth component that will feature hand-drawn charts and references to a selection of more articles chosen by the owner.
+9. [TO REVISIT] Another component is the logo banner at the top. This contains animation and styling that I would like to explore in the future but it does not seem necessary for this week's emphasis on Angular.
 
-10. [Most Done] Another component is the logo banner at the top. This contains animation and styling that I will explore in the future.
-
-11. The last component will comprise the footer section. It will be hard-coded and arranged as needed.  
+10. [DONE] The last component is the footer section, which is static.
 
 
 ### Technologies and Resources
@@ -44,20 +42,21 @@ It will be launched on firebase as a mock-up of the online newsletter, [Brain Pi
 * Karma
 * NPM
 * Angular
+* Firebase
 
 
 ### Setup Instructions
 
-First, make sure you have node package manager installed. Check out https://www.npmjs.com/get-npm for information on that.
+First, make sure you have node package manager installed globally. Check out https://www.npmjs.com/get-npm for information on that.
 
 #### Then:
 
 `$ git clone https://github.com/Eucile/brain-pickings`
 
 `$ cd brain-pickings`
+`$ npm install`
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
+Run `ng serve --open` for a dev server. The app will automatically reload if you change any of the source files.
 
 ### License
 

@@ -6,16 +6,19 @@ h1 a {
   box-shadow: -10px 0px 0px #ffdb00, 10px 0px 0px #ffdb00;
 }
 
+#yellow-quotes {
+  max-width: 90px;
+}
+
 #maya {
   max-width: 200px;
 }
-.text-wrap {
-  float: left;
+
+iframe {
+  width: 95%;
+  height: auto;
 }
 
-p {
-  float: left;
-}
 h1 a:hover {
   background: #262626;
   color: #ffdb00;

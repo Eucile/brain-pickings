@@ -20,7 +20,7 @@ It will be launched on firebase as a mock-up of the online newsletter, [Brain Pi
 
 5. [TO ADD] The third component in the sidebar is an About and Contact section. These will only provide external hyperlinks so will be managed with hard code.
 
-6. [TO ADD] The fourth sidebar component is an "Also" section that directs users to other additional media on the website, I may implement some routing in this section just to practice routing.
+6. [DONE] The fourth sidebar component is an "Also" section that directs users to other additional media on the website.
 
 7. [DONE] The sixth sidebar component is a "Favorite Reads" section. This is also a data-informed list that previews the most popular articles up-to-date. It is successfully retrieving its contents via a firebase list.
 

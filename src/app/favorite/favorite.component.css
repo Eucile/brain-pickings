@@ -31,10 +31,10 @@ span:hover {
 }
 
 span:after {
-    position: relative;
-    left: 10px;
-    line-height: 1.8em;
-    background: #ffdb00
+  position: relative;
+  left: 10px;
+  line-height: 1.8em;
+  background: #ffdb00
   }
 
 .underline {

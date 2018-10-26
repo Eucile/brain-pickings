@@ -1,7 +1,8 @@
 .labors-div {
   margin-top: 0;
+  margin-bottom: 2em;
   border-right: .5px solid lightgray;
-  width: 230px;
+  width: 232px;
 }
 
 .labors-image {
@@ -42,6 +43,7 @@ span:after {
   width: 172px;
   text-transform: lowercase;
   font-size: 1.8em;
-  margin: 1.1em 0 .4em 0;
+  margin: 0 0 .4em 0;
+  padding-top: 1.2em;
   border-bottom: 1px solid #8c8c8c;
 }

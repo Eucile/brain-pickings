@@ -1,0 +1,39 @@
+.also-image {
+    width: 172px;
+}
+
+.also-div {
+  margin-top: 0;
+  border-right: .5px solid lightgray;
+  width: 232px;
+}
+
+.underline {
+  width: 172px;
+  text-transform: lowercase;
+  font-size: 1.8em;
+  margin: 0 0 .4em 0;
+  border-bottom: 1px solid #8c8c8c;
+  padding-top: 1.2em;
+}
+
+span {
+  line-height: 1.2em;
+    color: black;
+    background: #e6e6e6;
+    text-decoration: none;
+    -webkit-box-shadow: -10px 0px 0px #e6e6e6, 10px 0px 0px #e6e6e6;
+    box-shadow: -10px 0px 0px #e6e6e6, 10px 0px 0px #e6e6e6;
+}
+span:after {
+    position: relative;
+    left: 10px;
+    line-height: 1.8em;
+    background: #ffdb00
+  }
+
+  span:hover {
+    background: #262626;
+    color: white;
+    box-shadow: -10px 0px 0px #262626, 10px 0px 0px #262626;
+  }

@@ -13,3 +13,13 @@ p {
   color: #8c8c8c;
   padding: 0 .5em;
 }
+
+@media screen and (max-width: 920px) {
+  .footer {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1em;
+    font-size: 1em;
+  }
+}

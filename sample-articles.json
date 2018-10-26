@@ -39,5 +39,26 @@
     "image" : "https://i2.wp.com/www.brainpickings.org/wp-content/uploads/2014/01/mindset.jpg?zoom=2&fit=300%2C157&ssl=1",
     "id": "7"
     }
+  ],
+  "labors": [{
+    "teaser": "Famous Writers' Sleep Habits vs. Literary Productivity, Visualized",
+    "image" : "https://i2.wp.com/www.brainpickings.org/wp-content/uploads/2013/11/sleepproductivitywriters_500_1.jpg?zoom=2&w=200&ssl=1",
+    "id": "8"
+    },
+    {
+    "teaser": "Susan Sontag on Love: Illustrated Diary Excerpts",
+    "image" : "https://i0.wp.com/www.brainpickings.org/wp-content/uploads/2014/02/sontaglove_unlimited.jpg?zoom=2&w=200&ssl=1",
+    "id": "9"
+    },
+    {
+    "teaser": "Albert Camus on Happiness and Love, Illustrated by Wendy MacNaughton",
+    "image" : "https://i2.wp.com/www.brainpickings.org/wp-content/uploads/2014/06/wendycamus.jpg?zoom=2&w=200&ssl=1",
+    "id": "8"
+    },
+    {
+    "teaser": "The Silent Music of the Mind: Remembering Oliver Sacks",
+    "image" : "https://i1.wp.com/www.brainpickings.org/wp-content/uploads/2015/08/oliversacks_debbiemillman.jpg?zoom=2&w=200&ssl=1",
+    "id": "8"
+  }
   ]
 }

@@ -1,5 +1,5 @@
 <h1 class="underline">Labors of Love</h1>
-<div *ngFor="let currentLabor of labors">
+<div *ngFor="let currentLabor of labors | async">
   <p><span class="teaser">{{currentLabor.teaser}}</span></p>
   <img class="labors-image" src={{currentLabor.image}}>
 </div>

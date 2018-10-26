@@ -5,7 +5,7 @@
 
 ### Description
 
-This project is deployed at [link]url(https://articles-d670e.firebaseapp.com/).
+This project is deployed at [https://articles-d670e.firebaseapp.com/](https://articles-d670e.firebaseapp.com/).
 Generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5., it is cloned off the online newsletter, [Brain Pickings](https://www.brainpickings.org/)(original site) using TypeScript, angular components and any new tools I uncover in the weeks ahead.   
 
 ## Current Structure

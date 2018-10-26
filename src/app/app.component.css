@@ -1,4 +1,4 @@
-a {
+h1 a {
   line-height: 1.6em;
   color: black;
   background: #ffdb00;
@@ -6,13 +6,23 @@ a {
   box-shadow: -10px 0px 0px #ffdb00, 10px 0px 0px #ffdb00;
 }
 
-a:hover {
+#maya {
+  max-width: 200px;
+}
+.text-wrap {
+  float: left;
+}
+
+p {
+  float: left;
+}
+h1 a:hover {
   background: #262626;
   color: #ffdb00;
   box-shadow: -10px 0px 0px #262626, 10px 0px 0px #262626;
 }
 
-a:after {
+h1 a:after {
     position: relative;
     left: 10px;
     line-height: 1.6em;
@@ -53,7 +63,6 @@ a:after {
   padding: 1em;
   font-size: 1.1em;
 }
-
 
 @media screen and (max-width: 920px) {
   .flex-container {
